@@ -29,6 +29,7 @@ export const SponsorLink = styled.a`
 `
 export const SponsorGold = styled.div`
     width: 100%;
+
     img {
         width: 500px;
         height: 500x;
@@ -39,19 +40,34 @@ export const SponsorGold = styled.div`
         transition: all 0.3s ease-in-out;
         transform: scale(1.05);
     }
+
+    @media screen and (max-width: 615px) {
+        display: flex;
+        flex-direction: column ;
+    }
 `
 
 export const SponsorSilver = styled.div`
     width: 100%;
+    display: flex;
+    flex-direction: row ;
+    justify-content:center;
+
     img {
         width: 250px;
         height: 250px;
         object-fit: contain;
+        margin: 0 10px 0px 10px;
     }
 
     &:hover {
         transition: all 0.3s ease-in-out;
         transform: scale(1.05);
+    }
+
+    @media screen and (max-width: 615px) {
+        display: flex;
+        flex-direction: column ;
     }
 `
 
@@ -68,7 +84,7 @@ export const SponsorBronze = styled.div`
         margin: 0 10px 0px 10px ;
     }
 
-    img:hover {
+    &:hover {
         transition: all 0.3s ease-in-out;
         transform: scale(1.05);
     }
@@ -76,5 +92,5 @@ export const SponsorBronze = styled.div`
     @media screen and (max-width: 615px) {
         display: flex;
         flex-direction: column ;
-    }   
+    }
 `

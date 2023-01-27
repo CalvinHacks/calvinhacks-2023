@@ -1,20 +1,20 @@
-export const Data = [
+export const FirstDay = [
     {
         time: "5:00pm - 6:00pm",
         event: 'Doors open for participants',
-        location: 'Commons Annex Basement',
-        description: 'Welcome to CalvinHacks! Come and checked in!',
+        location: 'Business Building Lobby',
+        description: 'Welcome to CalvinHacks! Come and check in!',
     },
     {
         time: "6:00pm - 6:30pm",
         event: 'Opening Ceremony',
-        location: 'Commons Annex Basement',
+        location: 'Business Building Lobby',
         description: 'Brief opening talk and instructions for the event.',
     },
     {
         time: "6:30pm",
         event: 'Hacking Starts',
-        location: 'Commons Annex Basement',
+        location: 'Business Building Lobby',
         description: 'Hack away!',
     },
     {
@@ -26,7 +26,7 @@ export const Data = [
     {
         time: "8:30pm",
         event: 'Dinner',
-        location: 'Commons Annex Basement Lobby',
+        location: 'Business Building Lobby',
         description: 'T.B.D',
     },
     {
@@ -35,16 +35,16 @@ export const Data = [
         location: 'T.B.D.',
         description: 'T.B.D',
     },
+    // {
+    //     time: "10:30pm - 11:30pm",
+    //     event: 'Workshop',
+    //     location: 'T.B.D.',
+    //     description: 'T.B.D',
+    // },
     {
-        time: "10:30pm - 11:30pm",
-        event: 'Workshop',
-        location: 'T.B.D.',
-        description: 'T.B.D',
-    },
-    {
-        time: "12:00am",
+        time: "12:00am - 12:30am",
         event: 'Midnight Snack',
-        location: 'Commons Annex Basement Lobby',
+        location: 'Business Building Lobby',
         description: 'T.B.D',
     },
 ]

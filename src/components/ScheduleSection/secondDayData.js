@@ -1,6 +1,6 @@
-export const Data1 = [
+export const SecondDay = [
     {
-        time: "12:00am - 1:00am",
+        time: "12:30am - 1:30am",
         event: 'Workshop',
         location: 'T.B.D.',
         description: 'T.B.D',
@@ -8,7 +8,7 @@ export const Data1 = [
     {
         time: "7:00am",
         event: 'Breakfast',
-        location: 'Commons Annex Basement Lobby',
+        location: 'Business Building Lobby',
         description: 'T.B.D',
     },
     {
@@ -18,9 +18,9 @@ export const Data1 = [
         description: 'T.B.D',
     },
     {
-        time: "12:15pm",
+        time: "12:00pm",
         event: 'Lunch',
-        location: 'Commons Annex Basement Lobby',
+        location: 'Business Building Lobby',
         description: 'T.B.D.',
     },
     {
@@ -39,7 +39,7 @@ export const Data1 = [
         description: '',
     },
     {
-        time: "5:15pm - 6:25pm",
+        time: "5:15pm - 6:15pm",
         event: 'Project Expo (Judging Round 1)',
         location: 'Commons Annex Basement',
         description: 'Showcase projects exposition-style',
@@ -47,7 +47,7 @@ export const Data1 = [
     {
         time: "6:15pm",
         event: 'Dinner',
-        location: 'Commons Annex Basement Lobby',
+        location: 'Business Building Lobby',
         description: 'T.B.D',
     },
     {

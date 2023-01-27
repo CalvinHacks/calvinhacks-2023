@@ -1,9 +1,11 @@
 import React from 'react';
 import { SponsorContainer, SponsorImageContainer, SponsorSilver, SponsorBronze, SponsorGold, SponsorLink } from './SponsorElement';
-import dornerworks from '../../image/dornerworks.png'
-import spindance from '../../image/spindance.jpg'
-import atomicobject from '../../image/atomic.png'
-import tekton from '../../image/tekton.png'
+import dornerworks from '../../image/dornerworks.png';
+import spindance from '../../image/spindance.jpg';
+import atomicobject from '../../image/atomic.png';
+import tekton from '../../image/tekton.png';
+import twisthink from '../../image/twisthink.png';
+import calvin from '../../image/calvin.jpg'
 
 const SponsorSection = () => {
     return (
@@ -19,14 +21,20 @@ const SponsorSection = () => {
                     <SponsorLink href='https://dornerworks.com/'>
                         <img src={dornerworks} alt='dornerworks' />
                     </SponsorLink>
+                    <SponsorLink href='https://twisthink.com/'>
+                        <img src={twisthink} alt='twisthink' />
+                    </SponsorLink>
                 </SponsorSilver>
                 <SponsorBronze>
                     <SponsorLink href='https://spindance.com/'>
                         <img src={spindance} alt='spindance' />
                     </SponsorLink>
-                    <SponsorLink href='https://atomicobject.com/'>
+                    {/* <SponsorLink href='https://atomicobject.com/'>
                         <img src={atomicobject} alt='atomicobject' />
-                    </SponsorLink>
+                        </SponsorLink>*/}
+                    {/* <SponsorLink href='https://calvin.edu/'>
+                        <img src={calvin} alt='calvinuniversity' />
+                        </SponsorLink>*/}
                 </SponsorBronze>
             </SponsorImageContainer>
         </SponsorContainer>
