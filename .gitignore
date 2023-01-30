@@ -20,10 +20,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # production
-/public
-/src
-/.vscode
-/README.md
-/build.zip
-/package.json
-/package-lock.json
+/build
