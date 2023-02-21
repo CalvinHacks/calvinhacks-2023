@@ -21,20 +21,17 @@ const SponsorSection = () => {
                     <SponsorLink href='https://dornerworks.com/'>
                         <img src={dornerworks} alt='dornerworks' />
                     </SponsorLink>
-                    <SponsorLink href='https://twisthink.com/'>
-                        <img src={twisthink} alt='twisthink' />
-                    </SponsorLink>
                 </SponsorSilver>
                 <SponsorBronze>
                     <SponsorLink href='https://spindance.com/'>
                         <img src={spindance} alt='spindance' />
                     </SponsorLink>
-                    {/* <SponsorLink href='https://atomicobject.com/'>
-                        <img src={atomicobject} alt='atomicobject' />
-                        </SponsorLink>*/}
-                    {/* <SponsorLink href='https://calvin.edu/'>
+                    <SponsorLink href='https://twisthink.com/'>
+                        <img src={twisthink} alt='twisthink' />
+                    </SponsorLink>
+                    <SponsorLink href='https://calvin.edu/'>
                         <img src={calvin} alt='calvinuniversity' />
-                        </SponsorLink>*/}
+                    </SponsorLink>
                 </SponsorBronze>
             </SponsorImageContainer>
         </SponsorContainer>
