@@ -15,13 +15,13 @@ export const FirstDay = [
         time: "6:30pm",
         event: 'Hacking Starts',
         location: 'Business Building Lobby',
-        description: 'Hack away!',
+        description: 'Start hacking away!',
     },
     {
         time: "7:00pm - 8:00pm",
         event: 'Workshop',
         location: 'T.B.D.',
-        description: 'T.B.D',
+        description: 'Dornerworks',
     },
     {
         time: "8:30pm",
@@ -42,8 +42,8 @@ export const FirstDay = [
     //     description: 'T.B.D',
     // },
     {
-        time: "12:00am - 12:30am",
-        event: 'Midnight Snack',
+        time: "12:00am",
+        event: 'Giveaway Raffle!',
         location: 'Business Building Lobby',
         description: 'T.B.D',
     },
