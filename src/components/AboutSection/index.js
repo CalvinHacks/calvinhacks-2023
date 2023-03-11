@@ -58,7 +58,7 @@ const AboutSection = () => {
                 {/* <p>Px scrolled: {scroll}</p> */}
                 <DescriptionP>
                     <h1>
-                        CalvinHacks 2023 is a 24Hr hackathon at Calvin Univeristy
+                        CalvinHacks is a 24Hr hackathon at Calvin Univeristy
                     </h1>
                     <h4>We believe through CalvinHacks participants will </h4>
                     <img src={testing} alt='testing'></img>

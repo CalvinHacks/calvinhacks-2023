@@ -24,7 +24,7 @@ const HeroSection = () => {
 
             <SignupInfo>
                 <HeroH1>
-                    CalvinHacks 2023
+                    CalvinHacks
                 </HeroH1>
                 <HeroP>
                     Take a Break and Get Plugged Back in!

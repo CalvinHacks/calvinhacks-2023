@@ -23,15 +23,15 @@ const SponsorSection = () => {
                     </SponsorLink>
                 </SponsorSilver>
                 <SponsorBronze>
-                    <SponsorLink href='https://spindance.com/'>
+                    {/*<SponsorLink href='https://spindance.com/'>
                         <img src={spindance} alt='spindance' />
-                    </SponsorLink>
+    </SponsorLink>*/}
                     <SponsorLink href='https://twisthink.com/'>
                         <img src={twisthink} alt='twisthink' />
                     </SponsorLink>
-                    <SponsorLink href='https://calvin.edu/'>
+                    {/*<SponsorLink href='https://calvin.edu/'>
                         <img src={calvin} alt='calvinuniversity' />
-                    </SponsorLink>
+    </SponsorLink>*/}
                 </SponsorBronze>
             </SponsorImageContainer>
         </SponsorContainer>
