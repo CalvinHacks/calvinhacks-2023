@@ -1,5 +1,5 @@
 # Credits
-Built on top of Calvin Hacks 2022 website by Jason Park
+Built on top of Calvin Hacks 2022 website that was developed by Jason Park
 
 # Getting Started with Create React App
 
