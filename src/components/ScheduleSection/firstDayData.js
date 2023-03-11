@@ -3,7 +3,9 @@ export const FirstDay = [
         time: "5:00pm - 6:00pm",
         event: 'Doors open for participants',
         location: 'Business Building Lobby',
-        description: 'Welcome to CalvinHacks! Come and check in!',
+        description: 'Welcome to CalvinHacks! Come and join our ',
+        linkWord: 'Discord!',
+        link: 'https://discord.com/invite/cyXUzYnrn8'
     },
     {
         time: "6:00pm - 6:30pm",

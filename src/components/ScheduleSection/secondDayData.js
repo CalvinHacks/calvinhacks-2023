@@ -30,7 +30,7 @@ export const SecondDay = [
         description: 'Make sure everything is submitted by 4:30pm. We will not accept late submissions. ' +
             'Submit projects to our',
         linkWord: 'Devpost.',
-        link: 'https://calvinhacks-2022.devpost.com/',
+        link: 'https://calvinhacks-2023.devpost.com/',
     },
     // {
     //     time: "5:00pm",
@@ -62,7 +62,7 @@ export const SecondDay = [
         location: 'Business Building Lobby',
         description: 'Prizes and projects can be viewed at our',
         linkWord: 'Devpost.',
-        link: 'https://calvinhacks-2022.devpost.com/',
+        link: 'https://calvinhacks-2023.devpost.com/',
     },
     {
         time: "8:00pm",
