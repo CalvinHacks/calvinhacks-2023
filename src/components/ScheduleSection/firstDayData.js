@@ -29,7 +29,7 @@ export const FirstDay = [
         time: "8:30pm",
         event: 'Dinner',
         location: 'Business Building Lobby',
-        description: 'T.B.D',
+        description: 'Little Caesar',
     },
     {
         time: "9:30pm - 10:30pm",

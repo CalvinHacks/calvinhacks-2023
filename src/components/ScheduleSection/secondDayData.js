@@ -3,7 +3,7 @@ export const SecondDay = [
         time: "12:30am",
         event: 'Midnight Snacks',
         location: 'Business Building Lobby.',
-        description: 'T.B.D',
+        description: 'Krispy Kreme',
     },
     {
         time: "7:00am",
@@ -21,7 +21,7 @@ export const SecondDay = [
         time: "12:00pm",
         event: 'Lunch',
         location: 'Business Building Lobby',
-        description: 'T.B.D.',
+        description: 'McDonald',
     },
     {
         time: "4:30pm",
@@ -48,7 +48,7 @@ export const SecondDay = [
         time: "6:30pm",
         event: 'Dinner',
         location: 'Business Building Lobby',
-        description: 'T.B.D',
+        description: 'Wingstop',
     },
     // {
     //     time: "7:30pm",
