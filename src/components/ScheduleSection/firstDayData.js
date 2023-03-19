@@ -45,8 +45,8 @@ export const FirstDay = [
     // },
     {
         time: "12:00am",
-        event: 'Giveaway Raffle!',
+        event: 'Giveaway Raffles!',
         location: 'Business Building Lobby',
-        description: 'T.B.D',
+        description: 'Awesome prizes such as keyboard, mouse, and headphone to be given away!',
     },
 ]
