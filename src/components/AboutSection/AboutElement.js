@@ -18,7 +18,7 @@ export const AboutSectionContainer = styled.div`
 export const Parallax = styled.div`
         width: 100%;
         height: 80vh;
-    
+
     * {
         scroll-behavior: smooth;
     }
@@ -27,7 +27,7 @@ export const Parallax = styled.div`
         position:relative;
         width: 100%;
         height: 100%;
-        
+
     }
 
     section img {
@@ -37,7 +37,7 @@ export const Parallax = styled.div`
         object-fit: cover;
         width: 100%;
         height: 100%;
- 
+
     }
 `
 
@@ -50,7 +50,7 @@ export const ImgFront = styled.img`
 
     @media screen and (max-width: 1000px) {
         top:${props => props.heightValue * .1}px;
-    }   
+    }
 
 `
 
@@ -64,7 +64,7 @@ export const ImgMid = styled.img`
 
     @media screen and (max-width: 1000px) {
         top:${props => props.heightValue * .01}px;
-    }   
+    }
 
 `
 
@@ -77,7 +77,7 @@ export const ImgBack = styled.img`
 
     @media screen and (max-width: 1000px) {
         top:${props => props.heightValue * .02}px;
-    }   
+    }
 
 `
 
@@ -85,11 +85,11 @@ export const ImgBack = styled.img`
 export const BackgroundImg = styled.div`
 `
 export const ImgBackground = styled.img`
-     z-index: 7;  
-     /* top:${props => props.heightValue }px;
+     z-index: 7;
+     /* top:${props => props.heightValue}px;
 
      @media screen and (max-width: 1000px) {
-        top:${props => props.heightValue * .05}px; 
+        top:${props => props.heightValue * .05}px;
     }   */
 `
 
@@ -105,7 +105,7 @@ export const AboutDescriptionSection = styled.div`
     align-items: center;
     margin: 0 0;
     z-index: 9;
-     
+
 `
 
 export const DescriptionP = styled.p`
@@ -131,7 +131,7 @@ export const DescriptionP = styled.p`
         font-weight: 200;
         color: #fff;
     }
-    
+
     img {
         max-width: 1576px;
         width: 90%;
@@ -160,7 +160,7 @@ export const DescriptionP = styled.p`
             color: #fff;
         }
 
- 
+
     }
 `
 
@@ -200,8 +200,8 @@ export const DetailSectionText = styled.div`
     width: 80%;
     margin: auto;
     overflow: hidden;
-    
-    
+
+
 
     p {
         font-size: 17px;
@@ -234,11 +234,11 @@ export const TextWithImageSection = styled.div`
 
 export const DescriptionP1 = styled.div`
 width: 80%;
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 30px;
     margin-top: 30px;
-    
+
 `
