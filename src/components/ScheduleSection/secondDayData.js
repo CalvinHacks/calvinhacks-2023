@@ -3,7 +3,7 @@ export const SecondDay = [
         time: "12:30am",
         event: 'Midnight Snacks',
         location: 'Business Building Lobby.',
-        description: 'Krispy Kreme',
+        //description: 'Krispy Kreme',
     },
     {
         time: "7:00am",
@@ -21,7 +21,7 @@ export const SecondDay = [
         time: "12:00pm",
         event: 'Lunch',
         location: 'Business Building Lobby',
-        description: "Wendy's",
+        //description: "Wendy's",
     },
     {
         time: "4:30pm",
@@ -30,7 +30,7 @@ export const SecondDay = [
         description: 'Make sure everything is submitted by 4:30pm. We will not accept late submissions. ' +
             'Submit projects to our',
         linkWord: 'Devpost.',
-        link: 'https://calvinhacks-2023.devpost.com/',
+        link: 'https://calvinhacks-2024.devpost.com/?ref_feature=challenge&ref_medium=discover',
     },
     // {
     //     time: "5:00pm",
@@ -48,7 +48,7 @@ export const SecondDay = [
         time: "6:30pm",
         event: 'Dinner',
         location: 'Business Building Lobby',
-        description: 'Wingstop',
+        //description: 'Wingstop',
     },
     // {
     //     time: "7:30pm",
@@ -62,7 +62,7 @@ export const SecondDay = [
         location: 'Business Building Lobby',
         description: 'Prizes and projects can be viewed at our',
         linkWord: 'Devpost.',
-        link: 'https://calvinhacks-2023.devpost.com/',
+        link: 'https://calvinhacks-2024.devpost.com/?ref_feature=challenge&ref_medium=discover',
     },
     {
         time: "8:00pm",

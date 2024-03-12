@@ -231,11 +231,11 @@ const SignupPage = () => {
         const users_querySnapshot = await getDocs(users); */
 
         // Current year participants
-        const current = query(collection(db, "2023"), where("email", "==", email));
+        const current = query(collection(db, "2024"), where("email", "==", email));
         const current_querySnapshot = await getDocs(current);
 
         /* if (users_querySnapshot.empty) {
-            alert("Thank you for signing up for CalvinHacks 2023!");
+            alert("Thank you for signing up for CalvinHacks 2024!");
 
             // Add to users collection
             addDoc(collection(db, "users"),
@@ -261,7 +261,7 @@ const SignupPage = () => {
 
         if (current_querySnapshot.empty) {
             // Add participant information to current year collection
-            addDoc(collection(db, "2023"), {
+            addDoc(collection(db, "2024"), {
                 firstName: firstName,
                 lastName: lastName,
                 email: email,
@@ -277,9 +277,9 @@ const SignupPage = () => {
                 communication: true,
             })
 
-            alert("Thank you for signing up for CalvinHacks 2023!");
+            alert("Thank you for signing up for CalvinHacks 2024!");
 
-            // toast.success("Thank you for signing up for CalvinHacks 2023!", {
+            // toast.success("Thank you for signing up for CalvinHacks 2024!", {
             //     position: "top-center",
             //     autoClose: 5000,
             //     hideProgressBar: false,
@@ -336,7 +336,7 @@ const SignupPage = () => {
         console.log(resume)
 
         // Add resume to current year storage folder
-        const storageRef = ref(storage, `/resume2023/${resume.name}`);
+        const storageRef = ref(storage, `/resume2024/${resume.name}`);
         const uploadTask = uploadBytesResumable(storageRef, resume);
 
         uploadTask.on("state_changed", (snapshot) => {

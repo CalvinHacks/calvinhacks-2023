@@ -18,17 +18,17 @@ const SponsorSection = () => {
                     </SponsorLink>
                 </SponsorGold>
                 <SponsorSilver>
-                    <SponsorLink href='https://dornerworks.com/'>
-                        <img src={dornerworks} alt='dornerworks' />
-                    </SponsorLink>
+                    {/* <SponsorLink href='https://dornerworks.com/'>
+                        <img src={dornerworks} alt='dornerworks' /> */}
+                    {/* </SponsorLink> */}
                 </SponsorSilver>
                 <SponsorBronze>
                     {/*<SponsorLink href='https://spindance.com/'>
                         <img src={spindance} alt='spindance' />
     </SponsorLink>*/}
-                    <SponsorLink href='https://twisthink.com/'>
+                    {/* <SponsorLink href='https://twisthink.com/'>
                         <img src={twisthink} alt='twisthink' />
-                    </SponsorLink>
+                    </SponsorLink> */}
                     {/*<SponsorLink href='https://calvin.edu/'>
                         <img src={calvin} alt='calvinuniversity' />
     </SponsorLink>*/}

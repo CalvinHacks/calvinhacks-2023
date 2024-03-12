@@ -89,7 +89,7 @@ const Data = styled.p`
 
 const Resume = () => {
     // Create Reference for folder that contain all the current resumes
-    const storageRef = ref(storage, `/resume2023`);
+    const storageRef = ref(storage, `/resume2024`);
 
     const [data, setData] = useState([]);
     const [called, setCalled] = useState("true")
@@ -98,7 +98,7 @@ const Resume = () => {
         // Resets the elements in the "data" array, everytime the user clicks "Get Resume".
         data.length = 0;
 
-        // List all the resume files in "./resume2023" folder
+        // List all the resume files in "./resume2024" folder
         listAll(storageRef)
             .then((res) => {
                 res.items.forEach((item) => {

@@ -11,7 +11,7 @@ const ScheduleSection = () => {
         <ScheduleContainer id="schedule">
             <ScheduleTableContainer>
                 <h4>Note: All times are in Eastern Standard Time</h4>
-                <h1>Day 1 - Friday, March 24</h1>
+                <h1>Day 1 - Friday, March 15</h1>
                 <hr />
                 <table>
                     {/* <thead>
@@ -46,7 +46,7 @@ const ScheduleSection = () => {
                     </tbody>
                 </table>
 
-                <h1>Day 2 - Saturday, March 25</h1>
+                <h1>Day 2 - Saturday, March 16</h1>
                 <hr />
 
                 <table>

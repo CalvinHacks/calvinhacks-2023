@@ -23,13 +23,13 @@ export const FirstDay = [
         time: "7:00pm - 8:00pm",
         event: 'Workshop',
         location: 'T.B.D.',
-        description: 'Dornerworks',
+        //description: 'Dornerworks',
     },
     {
         time: "8:30pm",
         event: 'Dinner',
         location: 'Business Building Lobby',
-        description: 'Little Caesar',
+        //description: 'Little Caesar',
     },
     {
         time: "9:30pm - 10:30pm",
@@ -47,6 +47,6 @@ export const FirstDay = [
         time: "12:00am",
         event: 'Giveaway Raffles!',
         location: 'Business Building Lobby',
-        description: 'Awesome prizes such as keyboard, mouse, and headphone to be given away!',
+        //description: 'Awesome prizes such as keyboard, mouse, and headphone to be given away!',
     },
 ]
